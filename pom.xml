@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>LION TECH ACADEMY Releases Nexus Repository</name>
-	      <url>http://52.60.97.76:8081/repository/liontechacademy-sept-2022-release/</url>
+	      <url>http://localhost:8081/repository/demo-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>LION TECH ACADEMY Snapshot Nexus Repository </name>
-	      <url>http://52.60.97.76:8081/repository/liontechacademy-sept-2022-snapshots/</url>
+	      <url>http://localhost:8081/repository/demo-snaptshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
