@@ -96,7 +96,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>LION TECH ACADEMY Releases Nexus Repository</name>
-	      <url>http://localhost:8081/repository/liontechapp1-release/</url>
+	      <url>http://localhost:8081/repository/demo-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
