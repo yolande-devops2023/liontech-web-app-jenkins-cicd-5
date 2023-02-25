@@ -25,3 +25,6 @@ THIS IS is done in the Global tool configuration tab in jenkins
       <username>admin</username>
        <password>Zion2020</password>
     </server>
+
+
+    /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven3.9.0/conf
