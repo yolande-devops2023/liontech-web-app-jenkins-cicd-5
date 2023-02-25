@@ -22,9 +22,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://localhost:9000/</sonar.host.url>
+		<sonar.host.url>http://15.223.77.223:9000/</sonar.host.url>
 		<sonar.login>liontech</sonar.login>  
-		<sonar.login>2cc05b57bb5786c2956a9d522f3b891fea45477b</sonar.login>
+		<sonar.login>8ddb53f9f9e6d962efa9b18736b517cf4448c814</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
