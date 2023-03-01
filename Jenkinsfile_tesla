@@ -29,13 +29,13 @@ node{
   }
   stage('7deploy2Prod'){
     sh "sleep  50"
-    deploy adapters: [tomcat9(credentialsId: 'tomcat-user-deploy', path: '', url: 'http://3.98.138.118:8009/')], contextPath: 'liontechapp', war: 'target/*.war'
+    deploy adapters: [tomcat9(path: '', url: 'http://3.98.138.118:8009/')], contextPath: 'liontechapp', war: 'target/*.war'
   }
   stage('8emailNotification'){
     emailext body: '''Hi All,
 
 Check Build status.
 
-   https://liontechacademy.webhook.office.com/webhookb2/69fa68d2-9fe7-4e6f-975a-7e5715e102a6@b290c85e-0692-4ada-8f25-2a3b60aca73e/JenkinsCI/ec4d2d602a524536add8cb87261bb193/90dc930a-1d3a-4c50-9c2d-39d010312f55
+Landmark Technologies''', recipientProviders: [buildUser(), developers(), upstreamDevelopers(), brokenBuildSuspects(), brokenTestsSuspects(), contributor()], subject: 'build status', to: 'tesla-app@gmail.com'
   }
 }
