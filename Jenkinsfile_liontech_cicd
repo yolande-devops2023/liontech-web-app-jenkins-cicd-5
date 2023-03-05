@@ -39,7 +39,7 @@ node{
 
   stage ('send MS Teams Notifications'){
 
-    office365ConnectorSend message: 'liontech devops engineers', webhookUrl: 'https://liontechacademy.webhook.office.com/webhookb2/69fa68d2-9fe7-4e6f-975a-7e5715e102a6@b290c85e-0692-4ada-8f25-2a3b60aca73e/JenkinsCI/7f4fa873f74d4def83a01d2a8166ff0b/90dc930a-1d3a-4c50-9c2d-39d010312f55'
+    office365ConnectorSend message: 'liontech devops engineers, we are unstopable', webhookUrl: 'https://liontechacademy.webhook.office.com/webhookb2/69fa68d2-9fe7-4e6f-975a-7e5715e102a6@b290c85e-0692-4ada-8f25-2a3b60aca73e/JenkinsCI/7f4fa873f74d4def83a01d2a8166ff0b/90dc930a-1d3a-4c50-9c2d-39d010312f55'
   }
             
   stage('8emailNotification'){
