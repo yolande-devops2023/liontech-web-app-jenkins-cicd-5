@@ -108,7 +108,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>LIONTECH-ACADEMY-DEVOPS</finalName>
+		<finalName>class20welcomeapp</finalName>
 		
 		<plugins>
 			<plugin>
