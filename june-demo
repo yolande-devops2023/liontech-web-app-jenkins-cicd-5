@@ -1,3 +1,5 @@
 testing build automation with jenkins
 added the sonarqube continuous testing step
-testing build maven goals
+testing  maven installation on jenkins
+testing maven installation 2
+
